@@ -1,0 +1,101 @@
+form {
+  border: 3px solid brown;
+  width: 50%;
+      display: inline-block;
+      text-align: left;
+
+}
+body {text-align: center;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email], input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid brown;
+  box-sizing: border-box;
+}
+/*button*/
+table, td, th {
+  border: 1px solid black;
+  align:"center";
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  height: 50px;
+}
+
+
+
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid brown;
+  width:20%;
+}
+
+.button2:hover {
+  background-color: brown;
+  color: white;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.reg {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  background-color:brown;
+  padding:10px;
+  margin-top:0px;
+  border: 3px solid brown;
+}
+.email{
+  padding: 16px;
+}
+
+/* Avatar image */
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
